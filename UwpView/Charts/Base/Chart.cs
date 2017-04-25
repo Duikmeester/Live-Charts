@@ -863,7 +863,7 @@ namespace LiveCharts.Uwp.Charts.Base
             if (AxisY.Count == 0)
                 AxisY.AddRange(DefaultAxes.DefaultAxis);
 
-            AxisX.Chart = this;
+            AxisY.Chart = this;
 
             return AxisY.Select(y =>
             {
